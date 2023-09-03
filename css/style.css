@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&display=swap');
+ * {
+  font-family: 'Roboto', sans-serif;
+   font-family: 'Raleway', sans-serif;
+ }
+:root {
+   --primary-color: #000000;
+   --font-colorone: rgb(3, 110, 211);
+   --font-color: rgb(61, 62, 63);
+   --detail-color: rgb(248, 243, 243);
+   
+ }
+
+ .list {
+   list-style: none;
+ }
+
+ .link {
+   text-decoration: none;
+ }
+ 
+ .hero {
+  background-color: rgb(8, 8, 8);
+}
+
+
+.hero__navigation.hero__link{
+  color: var(--primary-color);
+}
+
+.hero__navigation.hero__link:hover {
+  color: var(--font-colorone);
+}
+
+.hero__contact.contact__link{
+ color: var(--primary-color);
+}
+
+.hero__contact.contact__link:hover {
+  color: var(--detail-color);
+}
+
+.service__enterprise.service__button {
+  color: var(--primary-color);
+}
+
+.service__enterprise.service__button:hover {
+  color: var(--font-colorone);
+}
+ .service__enterprise.service__button{
+  cursor: pointer;
+ }
+ .buttonT{
+  cursor: pointer;
+ }
+ .buttonTodo{
+   cursor: pointer;
+ }
+ .buttonSitios-web {
+   cursor: pointer;
+ }
+ .buttonAplicaciones {
+   cursor: pointer;
+ }
+ .buttonDiseño {
+   cursor: pointer;
+ }
+ .buttonMarketing {
+   cursor: pointer;
+ }
