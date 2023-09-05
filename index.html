@@ -4,38 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylehref" href="./css/style.css"
-    .container {
-        font-size: 44px;
-        font-weight: 900;
-        line-height: 1.36;
-    }
-</head>
+    <link rel="stylesheet" href="./css/styles.css"
+   >
 <body>
-<main id="main__hero" class="hero">
+<main>
     <header>
-        <nav>
-            <ul class="hero__navigation">
-                <li class="hero__item">
-                    <a class="hero__link" href="#">WebStudio</a></li> 
-                <li class="hero__item">
-                     <a class="hero__link"  href="#">Estudio</a></li> 
-                <li class="hero__item">
-                     <a class="hero__link"  href="./portfolio.html">Portfolio</a></li> 
-                <li class="hero__item">
-                     <a class="hero__link"  href="#">Contactos</a></li>
-            </ul>
+        <nav>      
+                <a class="logo" href="./index.html">WebStudio</a>
+                <ul class="nav__list">
+                <li>
+                    <a class="nav__list_item" href="#">Estudio</a>
+                </li>
+                <li >
+                    <a class="nav__list_item1" href="./portfolio.html">Portfolio</a>
+                </li>
+                <li>
+                    <a class="nav__list_item2" href="#">Contactos</a>
+                </li>
+                </ul>
         </nav>
-        <ul class="hero__contact">
-            <li class="contact__item"><a class="contact__link" href ="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li class="contact__item"><a class="contact__link" href="tel:+525555296000">+525555296000</a></li>
+        <ul class="nav__list">
+            <li class="nav__list__contact"><a class="contact__link" href ="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li class="nav__list__contact"><a class="contact__link" href="tel:+525555296000">+525555296000</a></li>
         </ul>
     </header>
-     <div>
+     <section class="hero">
         <h1>SOLUCIONES EFICACES PARA TU NEGOCIO</h1>
-     </div> 
+        <button class="button__service">Solicite nuestro servicio</button>
+     </section> 
      
-        <button class="service__enterprise">Solicite nuestro servicio</button> 
+        
 </main>
 <section>
     <h2 style="display:none">Beneficios</h2>
@@ -81,12 +79,12 @@
 </section>
 <section>
     <footer>
-        <a>WebStudio</a>
+        <a class="logo">WebStudio</a>
         <address>
-            <ul>
-                <li><a href="#GoogleMapsurl">Calz. Ticomán 500, Ciudad de México, CDMX, México</a></li>
-                <li><a href="mailto:info@example.com">info@example.com</a></li>
-                <li><a href="tel:+525555296000 ">+525555296000 </a></li>
+            <ul> 
+                <li class="nav__contact"><a href="#GoogleMapsurl">Calz. Ticomán 500, Ciudad de México, CDMX, México</a></li>
+                <li class="nav__contact"><a href="mailto:info@example.com">info@example.com</a></li>
+                <li class="nav__contact"><a href="tel:+525555296000 ">+525555296000 </a></li>
             </ul>
         </address>
     </footer>
