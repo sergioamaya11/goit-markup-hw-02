@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&display=swap');
 :root {
-   --primary-color: #000000;
-   --font-colorone: rgb(3, 110, 211);
-   --font-color: rgb(30, 30, 31);
+   color:  #212121;
    --detail-color: rgb(248, 243, 243);
   }
 
@@ -25,7 +23,7 @@
       list-style-type: none;
     }
    .logo{
-    color: var(--font-colorone);
+    color: #2196F3;
     font-family: Raleway;
     font-size: 26px;
     font-weight: 700;
@@ -37,7 +35,7 @@
       letter-spacing: 0.02em;
     }
      .nav__list_item:hover {
-     color: var(--font-colorone);
+    color:  #2196F3;
      font-weight: 500;
      letter-spacing: 0.02em;
     }
@@ -47,7 +45,7 @@
       letter-spacing: 0.02em;
     }
      .nav__list_item1:hover {
-       color: var(--font-colorone);
+      color: #2196F3;
        font-weight: 500;
        letter-spacing: 0.02em;
      }
@@ -57,7 +55,7 @@
       letter-spacing: 0.02em;
      }
       .nav__list_item2:hover {
-      color: var(--font-colorone);
+      color: #2196F3;
       font-weight: 500;
       letter-spacing: 0.02em;
      }
@@ -67,7 +65,7 @@
         letter-spacing: 0.02em;
      }
       .nav__list__contact:hover {
-       color: var(--font-colorone);
+      color:#2196F3;
        font-weight: 500;
        letter-spacing: 0.02em;
       }
@@ -78,10 +76,10 @@
        background-color: var(--font-color);
       }
        .button__service{
-      color: white;
+      color:  #FFFFFF;
       font-weight: 900;
       letter-spacing: 0.06em;
-      background-color: aqua;
+      background: #2196F3;
      }
     .logo{
         font-weight: 400;
@@ -93,55 +91,23 @@
         font-weight: 500;
         letter-spacing: 0.02em;
      }
-     
-    .Todo{
-        color: #FFFFFF;
-        font-weight: 500;
-        letter-spacing: 0.03em;
-    }
-    .Web{
-          color: #212121;
-          font-weight: 500;
-          letter-spacing: 0.03em;
-        }
-      .Aplicaciones{
-        color: #212121;
-          font-weight: 500;
-          letter-spacing: 0.03em;
-      }
-      .Diseño{
-        color: #212121;
-          font-weight: 500;
-          letter-spacing: 0.03em;
-      }
-      .Marketing{
-        color: #212121;
-        font-weight: 500;
-        letter-spacing: 0.03em;
-      }
-      .Todo:hover {
-              
-        font-weight: 500;
-        letter-spacing: 0.03em;
-        background-color: #2196F3;
-       }
-        .Web:hover {
-           font-weight: 500;
-           letter-spacing: 0.03em;
-           background-color: #F5F4FA;
-        }
-         .Aplicaciones:hover {
-            font-weight: 500;
-            letter-spacing: 0.03em;
-            background-color: #F5F4FA
+          .Filter-Button{
+            color:  #212121;
+            font-family: Roboto;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 500;
+              line-height: 26px;
+              letter-spacing: 0.48px;
+              padding: 6px 24px;
+              border-radius: 4px;
+              text-align: center;
+              background-color: #FFFFFF;
           }
-          .Diseño:hover {  
-            font-weight: 500;
-            letter-spacing: 0.03em;
-            background-color: #F5F4FA
+           .Filter-Button:hover{
+            color: white;
            }
-          .Marketing:hover {
-            font-weight: 500;
-            letter-spacing: 0.03em;
-            background-color: #F5F4FA
+          .current-button {
+            color: white;
+            background: #2196F3;
           }
